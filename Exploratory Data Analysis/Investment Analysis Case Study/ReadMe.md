@@ -12,7 +12,7 @@ Strategy is to invest where most other investors are investing With below 2 mino
     - Invest only in English speaking countries for the ease of communication with the companies it would invest in
 
 # Data Understanding:
-    1. Company details : Basic details of 66,368 companies with Unique company Id, Company Name, Category name(s), Country etc
-    2. Funding round details: Important details Unique company Id, Funding Type, money raised in Funding etc …Total observations are 114,949
-    3. Sector Classification: M apping of category names in the companies table to 8 broad sector names
+    Company details : Basic details of 66,368 companies with Unique company Id, Company Name, Category name(s), Country etc
+    Funding round details: Important details Unique company Id, Funding Type, money raised in Funding etc. Total observations are 114,949
+    Sector Classification: M apping of category names in the companies table to 8 broad sector names
 
