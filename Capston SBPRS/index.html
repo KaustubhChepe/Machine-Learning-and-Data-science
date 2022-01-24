@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Capstone project</title>
+<body>
+<h1>Product recommendation template</h1>
+<div>
+  <form method="POST" action="/recommend">
+    <label for="User Name">User Name:</label>
+    <input type="text" id="User Name" name="User Name"><br><br>
+    <input type="submit" value="recommend" class="btn" />
+  </form>
+  <h3>{{text}}</h3>
+
+  {% for table in tables %}
+    {{ table|safe }}
+  {% endfor %}
+</div>
+</body>
+</html>
